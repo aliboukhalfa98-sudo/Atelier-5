@@ -21,4 +21,10 @@ void main() {
     print("Erreur : '$saisie' n'est pas un âge valide.");
     print("Détail : ${e.message}");
   }
+
+  finally {
+          // Q4 : s'exécute toujours, avec ou sans erreur
+    print("Fin d'opération");
+  }
+
 }
